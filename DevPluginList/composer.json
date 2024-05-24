@@ -1,0 +1,17 @@
+{
+    "name": "opengento/magento2-dev-plugin-list",
+    "description": "List of all plugins in your Magento 2 with load order",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérmie Gaudin",
+            "email": "gaudin.jeremie@gmail.com"
+        }
+    ],
+    "require": {
+        "magento/magento-coding-standard": "^3.0",
+        "phpmd/phpmd": "^2.6",
+        "squizlabs/php_codesniffer": "^3.5"
+    }
+}
