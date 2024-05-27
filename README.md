@@ -1,11 +1,11 @@
 # Module for Magento 2
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/opengento/module-module.svg?style=flat-square)](https://packagist.org/packages/opengento/module-module)
-[![License: MIT](https://img.shields.io/github/license/opengento/magento2-module.svg?style=flat-square)](./LICENSE) 
-[![Packagist](https://img.shields.io/packagist/dt/opengento/module-module.svg?style=flat-square)](https://packagist.org/packages/opengento/module-module/stats)
-[![Packagist](https://img.shields.io/packagist/dm/opengento/module-module.svg?style=flat-square)](https://packagist.org/packages/opengento/module-module/stats)
+[![Latest Stable Version](https://img.shields.io/packagist/v/opengento/magento2-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/magento2-dev-plugin-list)
+[![License: MIT](https://img.shields.io/github/license/opengento/magento2-dev-plugin-list.svg?style=flat-square)](./LICENSE) 
+[![Packagist](https://img.shields.io/packagist/dt/opengento/magento2-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/magento2-dev-plugin-list/stats)
+[![Packagist](https://img.shields.io/packagist/dm/opengento/magento2-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/magento2-dev-plugin-list/stats)
 
-This module add...
+This module add a BO entry for viewing all the plugins installed in the Magento 2 instance and their load order when triggered.
 
  - [Setup](#setup)
    - [Composer installation](#composer-installation)
@@ -26,7 +26,7 @@ Magento 2 Open Source or Commerce edition is required.
 Run the following composer command:
 
 ```
-composer require opengento/module-module
+composer require opengento/magento2-dev-plugin-list
 ```
 
 ### Setup the module
@@ -41,25 +41,24 @@ bin/magento setup:upgrade
 
 ## Features
 
-### Country to store mapping
-
-Define many countries to many stores relation. This configuration will allows Magento to map stores with countries.
+v0.0.1: Initial push. List all the plugins installed in the Magento 2 instance and their load order when triggered.
 
 ## Settings
 
-The configuration for this module is available in `Stores > Configuration > Module`.  
+There is no configuration at this time.
 
 ## Documentation
 
+Go to BO > Dev Plugins List.
 
 ## Support
 
-Raise a new [request](https://github.com/opengento/magento2-module/issues) to the issue tracker.
+Raise a new [request](https://github.com/opengento/magento2-dev-plugin-list/issues) to the issue tracker.
 
 ## Authors
 
 - **Opengento Community** - *Lead* - [![Twitter Follow](https://img.shields.io/twitter/follow/opengento.svg?style=social)](https://twitter.com/opengento)
-- **Contributors** - *Contributor* - [![GitHub contributors](https://img.shields.io/github/contributors/opengento/magento2-module.svg?style=flat-square)](https://github.com/opengento/magento2-module/graphs/contributors)
+- **Contributors** - *Contributor* - [![GitHub contributors](https://img.shields.io/github/contributors/opengento/magento2-dev-plugin-list.svg?style=flat-square)](https://github.com/opengento/magento2-dev-plugin-list/graphs/contributors)
 
 ## License
 
