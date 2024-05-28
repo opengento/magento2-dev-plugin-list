@@ -1,5 +1,5 @@
 {
-    "name": "opengento/magento2-dev-plugin-list",
+    "name": "opengento/module-dev-plugin-list",
     "description": "This module list all the plugins installed in the Magento 2 instance and their load order when triggered.",
     "keywords": [
         "php",
@@ -20,13 +20,13 @@
         "roave/security-advisories": "dev-latest"
     },
     "suggest": {
-        "opengento/magento2-dev-plugin-list": "This module list all the plugins installed in the Magento 2 instance and their load order when triggered."
+        "opengento/module-dev-plugin-list": "This module list all the plugins installed in the Magento 2 instance and their load order when triggered."
     },
     "type": "magento2-module",
     "license": [
         "MIT"
     ],
-    "homepage": "https://github.com/opengento/magento2-module",
+    "homepage": "https://github.com/opengento/module-module",
     "authors": [
         {
             "name": "Opengento Team",
@@ -42,8 +42,8 @@
         }
     ],
     "support": {
-        "source": "https://github.com/opengento/magento2-dev-plugin-list",
-        "issues": "https://github.com/opengento/magento2-dev-plugin-list/issues"
+        "source": "https://github.com/opengento/module-dev-plugin-list",
+        "issues": "https://github.com/opengento/module-dev-plugin-list/issues"
     },
     "autoload": {
         "files": [
