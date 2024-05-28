@@ -26,7 +26,7 @@ Magento 2 Open Source or Commerce edition is required.
 Run the following composer command:
 
 ```
-composer require opengento/magento2-dev-plugin-list
+composer require opengento/module-dev-plugin-list
 ```
 
 ### Setup the module
