@@ -1,0 +1,51 @@
+/* app/code/Opengento/DevPluginList/view/adminhtml/web/css/pluginlist.css */
+
+.plugin-key {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.plugin-value {
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.plugin-field {
+    font-weight: bold;
+}
+
+.plugin-value span {
+    margin-left: 0.5em;
+}
+
+.global {
+    background-color: #C1EFA3FF;
+}
+
+.webapi_rest {
+    background-color: #D3B38DFF;
+}
+
+.webapi_soap {
+    background-color: #C7B17EFF;
+}
+
+.frontend {
+    background-color: #819A34FF;
+}
+
+.adminhtml {
+    background-color: #ADAC62FF;
+}
+
+.disable {
+    background-color: #E7B19BFF;
+}
+
+.header_plugin {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: #0a6c9f;
+}

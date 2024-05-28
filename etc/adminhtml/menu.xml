@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Opengento_DevPluginList::devpluginlist" title="Dev Plugin List" module="Opengento_DevPluginList" sortOrder="9999" resource="Opengento_DevPluginList::devpluginlist" action="devpluginlist/index/index"/>
+    </menu>
+</config>

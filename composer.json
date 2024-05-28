@@ -1,0 +1,56 @@
+{
+    "name": "opengento/module-dev-plugin-list",
+    "description": "This module list all the plugins installed in the Magento 2 instance and their load order when triggered.",
+    "keywords": [
+        "php",
+        "magento",
+        "magento2",
+        "module",
+        "extension",
+        "free",
+        "plugins"
+    ],
+    "require": {
+        "php": "^7.4||^8.0",
+        "psr/log": "*",
+        "magento/framework": "*"
+    },
+    "require-dev": {
+        "magento/magento-coding-standard": "^33",
+        "roave/security-advisories": "dev-latest"
+    },
+    "suggest": {
+        "opengento/module-dev-plugin-list": "This module list all the plugins installed in the Magento 2 instance and their load order when triggered."
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "homepage": "https://github.com/opengento/magento2-dev-plugin-list",
+    "authors": [
+        {
+            "name": "Opengento Team",
+            "email": "opengento@gmail.com",
+            "homepage": "https://opengento.fr/",
+            "role": "lead"
+        },
+        {
+            "name": "Jérmie Gaudin",
+            "email": "gaudin.jeremie@gmail.com",
+            "homepage": "https://opengento.fr/",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/opengento/module-dev-plugin-list",
+        "issues": "https://github.com/opengento/module-dev-plugin-list/issues"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Opengento\\DevPluginList\\": ""
+        }
+    }
+}
