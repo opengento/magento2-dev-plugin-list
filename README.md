@@ -1,9 +1,9 @@
 # Module for Magento 2
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/opengento/magento2-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/magento2-dev-plugin-list)
+[![Latest Stable Version](https://img.shields.io/packagist/v/opengento/module-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/module-dev-plugin-list)
 [![License: MIT](https://img.shields.io/github/license/opengento/magento2-dev-plugin-list.svg?style=flat-square)](./LICENSE) 
-[![Packagist](https://img.shields.io/packagist/dt/opengento/magento2-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/magento2-dev-plugin-list/stats)
-[![Packagist](https://img.shields.io/packagist/dm/opengento/magento2-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/magento2-dev-plugin-list/stats)
+[![Packagist](https://img.shields.io/packagist/dt/opengento/module-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/module-dev-plugin-list/stats)
+[![Packagist](https://img.shields.io/packagist/dm/opengento/module-dev-plugin-list.svg?style=flat-square)](https://packagist.org/packages/opengento/module-dev-plugin-list/stats)
 
 This module add a BO entry for viewing all the plugins installed in the Magento 2 instance and their load order when triggered.
 
