@@ -19,9 +19,6 @@
         "magento/magento-coding-standard": "^33",
         "roave/security-advisories": "dev-latest"
     },
-    "suggest": {
-        "opengento/module-dev-plugin-list": "This module list all the plugins installed in the Magento 2 instance and their load order when triggered."
-    },
     "type": "magento2-module",
     "license": [
         "MIT"
@@ -38,7 +35,7 @@
             "name": "Jérmie Gaudin",
             "email": "gaudin.jeremie@gmail.com",
             "homepage": "https://opengento.fr/",
-            "role": "lead"
+            "role": "maintainer"
         }
     ],
     "support": {
